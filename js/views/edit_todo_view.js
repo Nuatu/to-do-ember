@@ -1,4 +1,4 @@
-Todos.EditTodoView = Ember.Textfield.extend({
+Todos.EditTodoView = Ember.TextField.extend({
   didInsertElement: function() {
     this.$().focus();
   }
