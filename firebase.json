@@ -1,0 +1,9 @@
+{
+  "firebase": "to-do-ember",
+  "public": ".",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
