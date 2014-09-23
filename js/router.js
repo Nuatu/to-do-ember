@@ -2,6 +2,7 @@ Todos.Router.map(function() {
   this.resource('todos', { path: '/' }, function () {
     // addtional child routes
     this.route('active');
+    this.route('completed');
   });
 });
 
